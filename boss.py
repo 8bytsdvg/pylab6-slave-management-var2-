@@ -21,8 +21,7 @@ if __name__ == "__main__":
         choice = input("Enter your choice (1-4): ")
         if choice == '1':
             for slave in slaves:
-                if not isinstance(slave, Manager):
-                    print(slave.info())
+                print(slave.info())
         elif choice == '2':
             for manager in managers:
                 print(manager.info())
