@@ -1,5 +1,4 @@
 from team_structure import *
-import random
 
 emp1 = Employee("Eugen", "Developer", 20000)
 emp2 = Employee("Anna", "Designer", 18000)

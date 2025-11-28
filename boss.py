@@ -1,5 +1,6 @@
 from team_structure import *
 from slaves import *
+import random
 
 if __name__ == "__main__":
     salary = 0
